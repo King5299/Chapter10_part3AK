@@ -1,0 +1,67 @@
+body {
+    background-image: url("images/background.png");
+    font-family: RegularOsans;
+}
+#header {
+    font-family: Osans;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+img {
+    width: 3.5%;
+}
+h1 {
+    background:no-repeat url("images/banner.jpg");
+    background-size: 100%;
+    background-size: cover;
+    font-size: 2em;
+    padding: 100px 0px 25px 0px;
+}
+h2 {
+    text-align: center;
+    font-family: Osans;
+    color: #66cc66;
+    font-weight: lighter;
+}
+@font-face {
+    font-family: Osans;
+    src: url("Open_Sans/static/OpenSans/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: RegularOsans;
+    src: url("Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+dt {
+     color:  #333333;
+     font-size: small;
+}
+dd {
+    color: #333333;
+    font-size: x-small;
+}
+footer {
+    text-align: right;
+    font-size: xx-small;
+}
+#dessert h2 {
+    font: 1.5em cursive;
+    color: #366b36;
+}
+#dessert dd {
+    font: 1.15em;
+    font-style: italic;
+    color: #366b36;
+}
+#dessert dt {
+    font: 1.15em;
+    font-style: italic;
+    color: #366b36; 
+}
+.price {
+    font-style: italic;
+    font-weight: bold;
+}
+#dessert {
+    border: solid thin #366b36;
+}
